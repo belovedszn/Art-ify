@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- style code below -->
+    <link rel="stylesheet" href="../style/header-nav.css" />
+    <link rel="stylesheet" href="../style/box.css" />
+    <link rel="stylesheet" href="../style/shop-by-category.css" />
+    <link rel="stylesheet" href="../style/products.css" />
+    <link rel="stylesheet" href="../style/newsletter.css" />
+    <link rel="stylesheet" href="../style/top-rated.css" />
+    <link rel="stylesheet" href="../style/launch.css" />
+    <link rel="stylesheet" href="../style/footer.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+
+    <title>ART-IFY</title>
+  </head>
+  <body>
+    <div class="opacity">
+      <header class="header" id="header">
+        <div class="sidebar" id="sidebar">
+          <div class="sidebar-container">
+            <div class="hide-sidebar">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="24px"
+                viewBox="0 -960 960 960"
+                width="24px"
+                fill="#5f6368"
+              >
+                <path
+                  d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"
+                />
+              </svg>
+            </div>
+            <div class="sidebar-list">
+              <div class="sidebar-search">
+                <input
+                  type="text"
+                  id="bi-search-box-mobile"
+                  placeholder="Search Here..."
+                />
+                <i
+                  class="bi bi-search bi-search-mobile"
+                  id="bi-search-mobile"
+                ></i>
+              </div>
+
+              <a href="../html/my-cart.html" class="sidebar-item sidebar-cart">
+                <span>My Cart</span>
+                <span class="arrow"><i class="bi bi-cart3"></i></span>
+              </a>
+              <a href="../html/digital-art.html" class="sidebar-item">
+                <span>Digital Art</span>
+                <span class="arrow">&#8250;</span>
+              </a>
+              <a href="../html/sculpture.html" class="sidebar-item">
+                <span>Sculpture</span>
+                <span class="arrow">&#8250;</span></a
+              >
+              <a href="../html/painting.html" class="sidebar-item">
+                <span>Painting</span>
+                <span class="arrow">&#8250;</span>
+              </a>
+              <a href="../html/sketch.html" class="sidebar-item">
+                <span>Sketch</span>
+                <span class="arrow">&#8250;</span>
+              </a>
+
+              <a href="../html/cubism.html" class="sidebar-item">
+                <span>Cubism</span>
+                <span class="arrow">&#8250;</span></a
+              >
+              <a href="../html/collection.html" class="sidebar-item">
+                <span>Collection</span>
+                <span class="arrow">&#8250;</span>
+              </a>
+              <div class="sidebar-profile">
+                <span class="bi-person-icon"
+                  ><i class="bi bi-person bi-person-login"></i
+                ></span>
+                <a href="../html/login-signup.html" class="login"
+                  >Login/Create Account</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="nav-menu show-sidebar" id="menu-icon">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-list"
+            viewBox="0 0 16 16"
+            id="hamburger-icon"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"
+            />
+          </svg>
+        </div>
+        <a href="../html/index.html">
+          <img src="../media/art-ify logo.png" class="logo" />
+        </a>
+
+        <nav class="navbar">
+          <a href="../html/digital-art.html"> Digital Art</a>
+          <a href="../html/sculpture.html">Sculpture</a>
+          <a href="../html/painting.html">Painting</a>
+          <a href="../html/sketch.html">Sketch</a>
+          <a href="../html/cubism.html">Cubism</a>
+          <a href="../html/collection.html">Collections</a>
+        </nav>
+        <div class="nav-right">
+          <i class="bi bi-search search-icon" id="searchIcon"></i>
+          <div class="search-box">
+            <i class="bi bi-search search-icon" id="searchIcon"></i>
+            <input type="text" placeholder="Search here..." />
+          </div>
+
+          <a href="../html/login-signup.html">
+            <i class="bi bi-person"></i>
+          </a>
+          <a href="../html/my-cart.html" style="display: flex; align-items: center; justify-content: center; gap: 5px;">
+            <i class="bi bi-bag"></i>
+            <i class="bi bi-cart3 cart3"></i>
+            <div class="cart-quantity js-cart-quantity"></div>
+          </a>
+        </div>
+      </header>
+
+      <section id="main">
+        <div class="box">
+          <div class="left-section">
+            <img src="../media/FsuKSZgWAAAo0Na.jpeg" class="mobile-img" />
+            <h2>art-ify discovery</h2>
+            <p>
+              get your unique art from our various collections, art is a
+              creative beauty perfection of the universe. discover your style
+              with our diverse collections of art, art is a creative beauty
+              perfection of the universe.
+              <span>
+                get your unique art from our various collections, art is a
+                creative beauty perfection of the universe. discover your style
+                with our diverse collections of art, art is a creative beauty
+                perfection of the universe. get your unique art from our various
+                collections, art is a creative beauty perfection of the
+                universe. discover your style with our diverse collections of
+                art, art is a creative beauty perfection of the universe.
+              </span>
+            </p>
+            <button class="shopsCats" href="#shopByCategory">
+              shop now
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-arrow-right"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+                />
+              </svg>
+            </button>
+          </div>
+          <div class="right-section"></div>
+        </div>
+      </section>
+
+      <section>
+        <div class="category-center" id="shopByCategory">
+          <div class="category">
+            <h2><span>shop by category</span></h2>
+            <ul class="category-grid">
+              <li>
+                <div class="category-box" id="digital-art-btn">
+                  <div class="category-img-box">
+                    <img src="/Art-ify/media/born in the wild.jpeg" />
+                    <div class="category-overlay">
+                      <a>Digital Art</a>
+                      <a href="../html/digital-art.html" class="shop-btn"
+                        >Shop Now</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="category-box" id="sculpture-btn">
+                  <div class="category-img-box">
+                    <img
+                      src="/Art-ify/media/products/lagbaja steeze sculpture.jpeg"
+                    />
+                    <div class="category-overlay">
+                      <a>Sculpture</a>
+                      <a href="../html/sculpture.html" class="shop-btn"
+                        >Shop Now</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="category-box" id="painting-btn">
+                  <div class="category-img-box">
+                    <img src="/Art-ify/media/products/self, death.jpeg" />
+                    <div class="category-overlay">
+                      <a>Painting</a>
+                      <a href="../html/painting.html" class="shop-btn"
+                        >Shop Now</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="category-box" id="collection-btn">
+                  <div class="category-img-box">
+                    <img src="/Art-ify/media/lovely.jpeg" />
+                    <div class="category-overlay">
+                      <a>Collection</a>
+                      <a href="../html/collection.html" class="shop-btn"
+                        >Shop Now</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="main">
+        <div class="products">
+          <div class="products-main">
+            <h2><span>New Arrival</span></h2>
+            <div class="products-grid js-products-grid"></div> 
+          <div class="products-btn">
+            <button>See More</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Top Rated Section Here... -->
+
+      <section class="top-rated">
+        <div class="top-rated-container">
+          <h2><span>Top Rated</span></h2>
+          <div class="top-rated-slider-wrapper">
+            <div class="top-rated-cs-hidden js-top-rated" id="autoWidth"></div>
+            <div class="nav-btn">
+              <button class="prev slide-btn" id="prev-slide">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-chevron-left"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"
+                  />
+                </svg>
+              </button>
+              <button class="next slide-btn" id="next-slide">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-chevron-right"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"
+                  />
+                </svg>
+              </button>
+            </div>
+            <div class="slider-scrollbar">
+              <div class="scrollbar-track">
+                <div class="scrollbar-thumb"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Launching Soon Section Here ...  -->
+
+      <section class="launch-soon">
+        <div class="launch-container">
+          <h2><span>Launch Soon</span></h2>
+          <div class="launch-slider-wrapper">
+            <div class="launch-cs-hidden js-launch-soon" id="autoWidth"></div> 
+            <div class="launch-nav-btn">
+              <button class="launch-prev launch-slide-btn" id="prev-slide">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-chevron-left"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"
+                  />
+                </svg>
+              </button>
+              <button class="launch-next launch-slide-btn" id="next-slide">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-chevron-right"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"
+                  />
+                </svg>
+              </button>
+            </div>
+            <div class="launch-slider-scrollbar">
+              <div class="launch-scrollbar-track">
+                <div class="launch-scrollbar-thumb"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="newsletter">
+          <h1>Join our newsletter</h1>
+          <div class="newletter-box">
+            <input type="email" placeholder="Enter your email address" />
+            <button>Subscribe Now</button>
+          </div>
+          <p>
+            by subscribing to our newsletter, you must have agree to our
+            <a href="#">Privacy Policy</a> and
+            <a href="#">Terms of Service</a>
+          </p>
+        </div>
+      </section>
+
+      <!-- Footer Start Here... -->
+
+      <footer class="footer">
+        <div class="footer-wrapper">
+          <div class="footer-columns">
+            <div class="footer-logo-column">
+              <a
+                href=""
+                aria-label="Go to Supabase homepage"
+                title="Go to Supabase Homepage"
+              >
+                <img
+                  src="/Art-ify/media/logo (3).png"
+                  loading="lazy"
+                  class="footer-logo"
+                  width="200"
+                />
+              </a>
+            </div>
+            <div class="link-columns">
+              <div>
+                <section>
+                  <h3>Quick Links</h3>
+                  <ul>
+                    <li>
+                      <a href="#">Track Order</a>
+                    </li>
+                    <li>
+                      <a href="#">Report Issue</a>
+                    </li>
+                    <li>
+                      <a href="#">FAQs</a>
+                    </li>
+                  </ul>
+                </section>
+
+                <section class="rest">
+                  <h3>Business</h3>
+                  <ul>
+                    <li>
+                      <a href="#" title="Sell Arts">Sell Arts</a>
+                    </li>
+                    <li>
+                      <a href="../html/shop-by-category.html" title="Buy Arts">Buy Arts</a>
+                    </li>
+                    <li>
+                      <a href="#" title="Partnership">Become A Partner</a>
+                    </li>
+                  </ul>
+                </section>
+              </div>
+              <div>
+                <section class="rest">
+                  <h3>Legal</h3>
+                  <ul>
+                    <li>
+                      <a href="#">Terms Of Service</a>
+                    </li>
+                    <li>
+                      <a href="#">Privacy Policy</a>
+                    </li>
+                  </ul>
+                </section>
+                <section>
+                  <h3>Company</h3>
+                  <ul>
+                    <li>
+                      <a href="../html/others/about.html" title="About Us"> About Us </a>
+                    </li>
+                    <li>
+                      <a href="../html/others/customer-service.html" title="Customer Service"> Customer Service </a>
+                    </li>
+                    <li>
+                      <a href="../html/others/contact.html" title="Contact Us"> Contact Us </a>
+                    </li>
+                  </ul>
+                </section>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="footer-bottom-wrapper">
+            <small>© <span id="year"></span> ARTIFY INC.</small>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="module" src="../script/products/index.js"></script>
+    <script type="module" src="../script/products/top-rated.js"></script>
+    <script type="module" src="../script/products/launch-soon.js"></script>
+    <script type="module" src="../script/script.js"></script>
+    
+   <!-- <script src="../data/cart.js"></script>
+    <script src="../data/index.js"></script>
+    <script src="../script/products/products.js"></script> -->
+  </body>
+</html>

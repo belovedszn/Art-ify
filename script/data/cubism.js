@@ -1,0 +1,105 @@
+
+
+export const products = [{
+    id: "hy2-acz-d3cp",
+    image: "/Art-ify/media/products/Dredge and Starry Night.png",
+    name: "Dredge and Starry Night",
+    artist: "So Slick af",
+    price: 700,
+}, {
+    id: "my8-ya-r-wyx",
+    image: "/Art-ify/media/products/Woman in a Chair.jpeg",
+    name: "Woman In A Chair",
+    artist: "Al Lofsness",
+    price: 100,
+}, {
+    id: "gt4-63-24ubb",
+    image: "/Art-ify/media/products/sugarland.jpeg",
+    name: "Sugarland, Bitter Sweet",
+    artist: "SoulCurryArt",
+    price: 320,
+}, {
+    id: "dz4-7tmijvyp",
+    image: "/Art-ify/media/products/sound of music.jpeg",
+    name: "Sound Of Music",
+    artist: "EarthexitArt",
+    price: 190,
+}, {
+    id: "mx8-w608-53f",
+    image: "/Art-ify/media/products/remade.jpeg",
+    name: "Remade, Perfect Creation",
+    artist: "callme CAPRINE",
+    price: 210,
+}, {
+    id: "bo7-4yj2tfst",
+    image: "/Art-ify/media/products/PORTRAIT OF SIGNA SUMMER.jpeg",
+    name: " Portrait Of Signa Summer",
+    artist: "Vilhelm Lundstrøm",
+    price: 135,
+}, {
+    id: "mn3-1oqeansm",
+    image: "/Art-ify/media/products/multiverse universe.jpeg",
+    name: "Multiverse Universe",
+    artist: "Jon Snow",
+    price: 600,
+}, {
+    id: "mt3-y-7h--vx",
+    image: "/Art-ify/media/products/many face man.jpeg",
+    name: "Many Face Man",
+    artist: "Al Mali",
+    price: 445,
+}, {
+    id: "kv6-ku0d6x1h",
+    image: "/Art-ify/media/products/major saul.jpeg",
+    name: "Major Saul",
+    artist: "Lord Commander",
+    price: 900,
+}, {
+    id: "ms3---g-qgb6",
+    image: "/Art-ify/media/products/Les Demoiselles d’Avignon'.jpeg",
+    name: "Picasso Essence'",
+    artist: "Les Demoiselles d’Avignon",
+    price: 550,
+}, {
+    id: "kt5-wj-7igmj",
+    image: "/Art-ify/media/products/kill bill.jpeg",
+    name: "Kill Bill",
+    artist: "Young Nigga",
+    price: 220,
+}, {
+    id: "kv6-vx9l-qw8",
+    image: "/Art-ify/media/products/Gerardo Dottori.jpeg",
+    name: "Christ, The Redeemer",
+    artist: "Gerardo Dottori",
+    price: 1024,
+}, {
+    id: "ap6-nfh-t1j0",
+    image: "/Art-ify/media/products/famous saying - buy the dip.jpeg",
+    name: "Buy The Dip",
+    artist: "Famous Gabino",
+    price: 400,
+}, {
+    id: "gz2-s2saf-fe",
+    image: "/Art-ify/media/products/fakur chick.jpeg",
+    name: "Fakur Chick",
+    artist: "Poppin",
+    price: 100,
+}, {
+    id: "az9-oa8-wco6",
+    image: "/Art-ify/media/products/Ebony Warrior Part 11.jpeg",
+    name: "Ebony Warrior Part 11",
+    artist: "Jillian SuzanneA",
+    price: 2000,
+}, {
+    id: "br2-dof8uqx8",
+    image: "/Art-ify/media/products/Daft Punk.jpeg",
+    name: "Daft Punk",
+    artist: "Dragonfr",
+    price: 300,
+}, {
+    id: "fv9-ro6ch46x",
+    image: "/Art-ify/media/products/Anna Ajmátova.jpeg",
+    name: "True Tenderness Is Silent",
+    artist: "Anna Ajmátova",
+    price: 1350,
+}, ]
