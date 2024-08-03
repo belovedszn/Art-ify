@@ -350,12 +350,18 @@ nav a {
   .logo {
     max-width: 100px;
   }
+  .cart-quantity {
+  font-size: 16px;
+}
 }
 
 @media (max-width: 1200px) {
   .header .nav-menu {
     visibility: visible;
   }
+  .cart-quantity {
+  font-size: 18px;
+}
   .navbar {
     display: none;
   }
