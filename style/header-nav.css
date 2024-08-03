@@ -21,7 +21,7 @@ body {
 }
 
 .cart-quantity {
-  font-size: 22px;
+ /* font-size: 22px; */
   color: #32cd32;
 }
 
@@ -58,6 +58,10 @@ body {
   color: #32cd32;
   font-size: 20px;
   cursor: pointer;
+}
+
+.bi-bag {
+  font-size: 24px;
 }
 
 .bi-person,
